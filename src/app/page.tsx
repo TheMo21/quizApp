@@ -47,7 +47,7 @@ export default function Home() {
       ) : (
         <div className="w-full h-lvh flex flex-col items-center bg-blue-900 ">
           <h1 className="text-6xl text-yellow-300">Psychology Quiz</h1>
-          <div className="w-1/3 h-1/3 m-7 p-2 flex flex-col justify-between items-center rounded-md bg-white">
+          <div className="w-full h-full md:w-1/3 md:h-1/3 m-7 p-2 flex flex-col justify-between items-center rounded-md bg-white">
             <Card
               onClick={() => setShowAnswer(!showAnswer)}
               header={`Question: ${counter + 1}`}
